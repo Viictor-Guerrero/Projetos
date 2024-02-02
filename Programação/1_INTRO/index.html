@@ -1,1 +1,328 @@
-<h1>Este é um titulo</h1>
+<div style="text-align: center; font-family: Arial, Helvetica, sans-serif; border: 1px solid #dee2e6; padding: 10px; background-color: #fff;">
+    <h5>CALENDÁRIO DE ATIVIDADES AVALIATIVAS</h5><br>
+    <button onmouseover="mouseOver('over9')" onmouseout="mouseOut('over9')" id="over9" type="button" onclick="alternar('conteudo1')" style="cursor: pointer; background-color: #1D3772; color: #FFFFFF; border: none; padding: 7px; margin: 0 15px 0 0; width: 90px; font-size: 1rem;">EAD 20%</button>
+
+    <button onmouseover="mouseOver('over10')" onmouseout="mouseOut('over10')" id="over10" type="button" onclick="alternar('conteudo2')" style="cursor: pointer; background-color: #1D3772; color: #FFFFFF; border: none; padding: 7px; margin: 0 15px 0 15px; width: 90px; font-size: 1rem;">EAD 100%</button>
+
+    <button onmouseover="mouseOver('over11')" onmouseout="mouseOut('over11')" id="over11" type="button" onclick="alternar('conteudo3')" style="cursor: pointer; background-color: #1D3772; color: #FFFFFF; border: none; padding: 7px; margin: 0 0 0 15px; width: 90px; font-size: 1rem;">UNIESP</button><br><br>
+
+    <center>
+        <img src="https://ava.universidadebrasil.edu.br/draftfile.php/541227/user/draft/833579366/olho.png" onmouseover="mouseOver_mudar12()" onmouseout="mouseOut_mudar12()" id="olho1"  type="button" onclick="esconder('.comum');" style="cursor: pointer; width: 32px;">
+        
+        <img src="https://ava.universidadebrasil.edu.br/draftfile.php/541227/user/draft/769008850/olho-cruzado.png" onmouseover="mouseOver_mudar12()" onmouseout="mouseOut_mudar12()" id="olho2"  type="button" onclick="esconder('.comum');" style="cursor: pointer; width: 32px; display: none;">
+    </center>
+</div>
+<br>
+<!--EAD 20%-->
+<div id="conteudo1" style="display: none;" class="comum">
+    <table style="font-size: 1vw; text-align: center; font-family: 'Arial'; table-layout: fixed; width: 100%; border: 1px solid #6c757d;" border="1">
+        <tbody>
+            <tr style="padding: 20px; background-color: #1D3772; color: #fff;">
+                <th style="padding: 3px;">Avaliação</th>
+                <th style="padding: 3px;">Recurso</th>
+                <th style="padding: 3px;">Peso</th>
+                <th style="padding: 3px;">Início</th>
+                <th style="padding: 3px;">Término</th>
+            </tr>
+            <tr style="padding: 20px;">
+                <td rowspan="4" style="padding: 3px;  background-color: #ced4da;"><strong>Quiz<br>Prova<br>Exame</strong></td>
+                <td style="padding: 3px; background-color: #ced4da;">Quiz - N1</td>
+                <td style="padding: 3px; background-color: #ced4da;">4</td>
+                <td style="padding: 3px; background-color: #ced4da;"><span style="color: #000;">02/10/2023</span></td>
+                <td style="padding: 3px; background-color: #ced4da;"><span style="color: #000;">01/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px; background-color: #ced4da;">
+                <td style="padding: 3px;">Prova Presencial - N2</td>
+                <td style="padding: 3px;">6</td>
+                <td style="padding: 3px;"><span style="color: #000;">21/11/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">27/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px; background-color: #ced4da;">
+                <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                <td style="padding: 3px;">4 ou 6</td>
+                <td style="padding: 3px;"><span style="color: #000;">11/12/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">15/12/2023</span></td>
+            </tr>
+            <tr style="padding: 20px; background-color: #ced4da;">
+                <td style="padding: 3px;">Exame - EX</td>
+                <td style="padding: 3px;">10</td>
+                <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td rowspan="4" style="padding: 3px;"><strong>Dp/Adap<br><br>Quiz<br>Prova<br>Exame</strong></td>
+                <td style="padding: 3px;">Quiz - N1</td>
+                <td style="padding: 3px;">4</td>
+                <td style="padding: 3px;"><span style="color: #000;">02/10/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">01/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Prova Presencial - N2</td>
+                <td style="padding: 3px;">6</td>
+                <td style="padding: 3px;"><span style="color: #000;">21/11/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">27/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                <td style="padding: 3px;">4 ou 6</td>
+                <td style="padding: 3px;"><span style="color: #000;">11/12/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">15/12/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Exame - EX</td>
+                <td style="padding: 3px;">10</td>
+                <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!--EAD 100%-->
+<div id="conteudo2" style="display: none;" class="comum">
+    <div id="divcomum">
+        <table style="font-size: 1vw; text-align: center; font-family: 'Arial'; table-layout: fixed; width: 100%; border: 1px solid #6c757d;" border="1">
+            <tbody>
+                <tr style="padding: 20px; background-color: #1D3772; color: #fff;">
+                    <th style="padding: 3px;">Avaliação</th>
+                    <th style="padding: 3px;">Recurso</th>
+                    <th style="padding: 3px;">Peso</th>
+                    <th style="padding: 3px;">Início</th>
+                    <th style="padding: 3px;">Término</th>
+                </tr>
+                <tr style="padding: 20px;">
+                    <td rowspan="5" style="padding: 3px;"><strong>Dissertativa</strong></td>
+                    <td style="padding: 3px;">Quiz</td>
+                    <td style="padding: 3px;">2</td>
+                    <td style="padding: 3px;"><span style="color: #000;">02/10/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">01/11/2023</span></td>
+                </tr>
+                <!--Entrega-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Tarefa: Dissertativa (envio)</td>
+                    <td style="padding: 3px;">2</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/09/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">09/10/2023</span></td>
+                </tr>
+                <!--Prova Presencial-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Prova Presencial</td>
+                    <td style="padding: 3px;">6</td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/11/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">27/11/2023</span></td>
+                </tr>
+                <!--Sub-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                    <td style="padding: 3px;">2 ou 6</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">15/12/2023</span></td>
+                </tr>
+                <!--Exame-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Exame</td>
+                    <td style="padding: 3px;">10</td>
+                    <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+                </tr>
+
+                <!--FÓRUM AVALIATIVO-->
+                <!--Quiz-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td rowspan="5" style="padding: 3px;"><strong>Fórum Avaliativo</strong></td>
+                    <td style="padding: 3px;">Quiz</td>
+                    <td style="padding: 3px;">2</td>
+                    <td style="padding: 3px;"><span style="color: #000;">02/10/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">01/11/2023</span></td>
+                </tr>
+                <!--Fórum-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">Tarefa: Fórum</td>
+                    <td style="padding: 3px;">2</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/09/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">09/10/2023</span></td>
+                </tr>
+                <!--Prova Presencial -->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">Prova Presencial</td>
+                    <td style="padding: 3px;">6</td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/11/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">27/11/2023</span></td>
+                </tr>
+                <!--Sub-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                    <td style="padding: 3px;">2 ou 6</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">15/12/2023</span></td>
+                </tr>
+                <!--Exame-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">Exame</td>
+                    <td style="padding: 3px;">10</td>
+                    <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+                </tr>
+
+                <!--Atividades Complementares-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;"><strong>Atividades Complementares</strong></td>
+                    <td style="padding: 3px;">Tarefa: Envio</td>
+                    <td style="padding: 3px;">Aprovado<br> ou<br> Reprovado</td>
+                    <td style="padding: 3px;"><span style="color: #000;">--</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">08/12/2023</span></td>
+                </tr>
+
+                <!--Estágio Supervisionado-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;"><strong>Estágio Supervisionado</strong></td>
+                    <td style="padding: 3px;">Tarefa: Envio</td>
+                    <td style="padding: 3px;">Aprovado<br> ou<br> Reprovado</td>
+                    <td style="padding: 3px;"><span style="color: #000;">--</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">08/12/2023</span></td>
+                </tr>
+
+                <!--Práticas-->
+                <!--Quiz-->
+                <tr style="padding: 20px;">
+                    <td rowspan="5" style="padding: 3px;"><strong>Práticas</strong></td>
+                    <td style="padding: 3px;">Quiz</td>
+                    <td style="padding: 3px;">4</td>
+                    <td style="padding: 3px;"><span style="color: #000;">02/10/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">01/11/2023</span></td>
+                </tr>
+                <!--Fórum-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">N2 (fórum)</td>
+                    <td style="padding: 3px;">3</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/09/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">09/10/2023</span></td>
+                </tr>
+                <!--Entrega-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">N2 (relatório)</td>
+                    <td style="padding: 3px;">3</td>
+                    <td style="padding: 3px;"><span style="color: #000;">20/10/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">08/12/2023</span></td>
+                </tr>
+                <!--Sub-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                    <td style="padding: 3px;">3 ou 4</td>
+                    <td style="padding: 3px;"><span style="color: #000;">11/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">15/12/2023</span></td>
+                </tr>
+                <!--Exame-->
+                <tr style="padding: 20px;">
+                    <td style="padding: 3px;">Exame</td>
+                    <td style="padding: 3px;">10</td>
+                    <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+                </tr>
+
+                <!--P.I, Projeto de TCC e TCC-->
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td rowspan="3" style="padding: 3px;"><strong>PI, Projeto de TCC e TCC</strong></td>
+                    <td rowspan="3" style="padding: 3px;">Tarefa: Envio</td>
+                    <td style="padding: 3px;">4</td>
+                    <td style="padding: 3px;"><span style="color: #000;">25/09/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">25/10/2023</span></td>
+                </tr>
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">6</td>
+                    <td style="padding: 3px;"><span style="color: #000;">30/10/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">30/11/2023</span></td>
+                </tr>
+                <tr style="padding: 20px; background-color: #ced4da;">
+                    <td style="padding: 3px;">10</td>
+                    <td style="padding: 3px;"><span style="color: #000;">16/12/2023</span></td>
+                    <td style="padding: 3px;"><span style="color: #000;">21/12/2023</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--UNIESP-->
+<div id="conteudo3" style="display: none;" class="comum">
+    <table style="font-size: 1vw; text-align: center; font-family: 'Arial'; table-layout: fixed; width: 100%; border: 1px solid #6c757d;" border="1">
+        <tbody>
+            <tr style="padding: 20px; background-color: #1D3772; color: #fff;">
+                <th style="padding: 3px;">Avaliação</th>
+                <th style="padding: 3px;">Recurso</th>
+                <th style="padding: 3px;">Peso</th>
+                <th style="padding: 3px;">Início</th>
+                <th style="padding: 3px;">Término</th>
+            </tr>
+            <tr>
+                <td rowspan="4" style="padding: 3px;"><strong>Quiz<br>Prova<br>Exame</strong></td>
+                <td style="padding: 3px;">Quiz - N1</td>
+                <td style="padding: 3px;">4</td>
+                <td style="padding: 3px;"><span style="color: #000;">19/10/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">28/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Prova Presencial - N2</td>
+                <td style="padding: 3px;">6</td>
+                <td style="padding: 3px;"><span style="color: #000;">26/10/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">24/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Atv. Sub. - N1 ou N2</td>
+                <td style="padding: 3px;">4 ou 6</td>
+                <td style="padding: 3px;"><span style="color: #000;">25/11/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">28/11/2023</span></td>
+            </tr>
+            <tr style="padding: 20px;">
+                <td style="padding: 3px;">Exame - EX</td>
+                <td style="padding: 3px;">10</td>
+                <td style="padding: 3px;"><span style="color: #000;">02/12/2023</span></td>
+                <td style="padding: 3px;"><span style="color: #000;">12/12/2023</span></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function alternar(el) {
+        var display = document.getElementById(el).style.display;
+
+        var divs = document.querySelectorAll(".comum");
+        divs.forEach((div) => {
+            div.style.display = 'none';
+        });
+
+        if (display == 'block') {
+            document.getElementById(el).style.display = 'none';
+        } else {
+            document.getElementById(el).style.display = 'block';
+        }
+    }
+
+    function esconder() {
+        var divs = document.querySelectorAll(".comum");
+        divs.forEach((div) => {
+            div.style.display = 'none';
+        });
+    }
+
+    function mouseOver(id) {
+        document.getElementById(id).style.background = "#407ba7";
+        document.getElementById(id).style.transition = '0.3s';
+    }
+
+    function mouseOut(id) {
+        document.getElementById(id).style.background = "#1D3772";
+        document.getElementById(id).style.transition = '1.5s';
+    }
+
+    function mouseOver_mudar12() {
+        document.getElementById("olho1").style.display = "none";
+        document.getElementById("olho2").style.display = "block";
+
+    }
+
+    function mouseOut_mudar12() {
+       document.getElementById("olho1").style.display = "block";
+       document.getElementById("olho2").style.display = "none";
+    }
+</script>
